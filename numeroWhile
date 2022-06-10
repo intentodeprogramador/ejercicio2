@@ -1,0 +1,21 @@
+package com.practicajava;
+
+public class Practicajava {
+
+    public static void main(String[] args) {
+        
+        int numeroWhile = 0;
+        
+        while (numeroWhile < 3) {            
+            numeroWhile++;
+            System.out.println(numeroWhile);
+        }
+        
+        do {            
+            System.out.println(numeroWhile);
+            numeroWhile++;
+        } while (numeroWhile > 3);
+        
+   }
+}
+        
