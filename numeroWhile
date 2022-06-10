@@ -11,10 +11,12 @@ public class Practicajava {
             System.out.println(numeroWhile);
         }
         
+        int numeroWhile = 4;
+        
         do {            
             System.out.println(numeroWhile);
             numeroWhile++;
-        } while (numeroWhile > 3);
+        } while (numeroWhile < 3);
         
    }
 }
