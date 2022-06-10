@@ -1,0 +1,21 @@
+package com.practicajava;
+
+import java.util.Scanner;
+
+
+public class Practicajava {
+
+    public static void main(String[] args) {
+        
+        int numeroIf;
+        Scanner keyboard = new Scanner (System.in);
+        numeroIf = keyboard.nextInt();
+        if(numeroIf > 0){
+            System.out.println("El numero es positivoo");
+        }else if (numeroIf < 0) {
+            System.out.println("El numero es negativo");
+        }else {
+            System.out.println("El numero es cero");
+        }           
+    }    
+}
