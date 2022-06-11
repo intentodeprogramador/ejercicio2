@@ -1,0 +1,36 @@
+package com.practicajava;
+
+import java.util.Scanner;
+
+
+public class Practicajava {
+
+    public static void main(String[] args) {
+        
+         
+        for (int numeroFor = 0; numeroFor <= 3; numeroFor++) {
+            System.out.println(numeroFor);
+        }
+       
+       
+       
+        String estacion ="";
+        
+            Scanner keyboard = new Scanner(System.in);
+            estacion = keyboard.nextLine();
+        switch (estacion) {
+            case "verano":
+                System.out.println("Es verano");                
+                break;
+            case "otoño":
+                System.out.println("Es invierno");
+                break;
+            case "invierno":
+                System.out.println("Es otoño");
+                break;
+            case "primavera":
+                System.out.println("Es primavera");
+                break;
+            default: System.out.println("No es niguna estacion");
+        }
+  }
